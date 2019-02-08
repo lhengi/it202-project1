@@ -22,6 +22,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
 
 </head>
 
@@ -30,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Startttt Bootstrap</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -49,6 +50,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
+			<li class="nav-item">
+				<a class="nav-link js-scroll-trigger" href="#commingSoon">Comming Soon</a>
+			</li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -57,16 +61,58 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+  <!-- Header class="masthead" -->
+  
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/snowRoad.jpeg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Road Trip?</h3>
+            <p>You want to avoid this...</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/cleanWinterRoad.jpeg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>This is the Road Trip we Wanted</h3>
+            <p>We want you to enjoy your road trip...</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/planning.jpeg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>We plan your Road Trip for you</h3>
+            <p>So You Don't Have To Worry About The Hard Work.</p>
+          </div>
+        </div>
+        <!-- Slide Four - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('./img/phoneApp.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Just Tell Us Where You Want To Go</h3>
+            <p>And We Will Make Sure Your Trip Is Hazards Free.</p>
+          </div>
+        </div>
+          
+        
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </header>
+      
+  
 
   <!-- Services -->
   <section id="services">
@@ -77,6 +123,34 @@
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">E-Commerce</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Responsive Design</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Web Security</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        </div>
+      </div>
+        <br/>
+        <br/>
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -116,7 +190,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -130,7 +204,7 @@
             <p class="text-muted">Illustration</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -144,35 +218,7 @@
             <p class="text-muted">Graphic Design</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -186,7 +232,7 @@
             <p class="text-muted">Website Design</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -272,18 +318,33 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+            	<li>
+					<div class="timeline-image">
+						<img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+					</div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4>July 2018</h4>
+							<h4 class="subheading">Phase Three Expansion</h4>
+						</div>
+						<div class="timeline-body">
+							<p class="text-muted">hfsdhafjdsklfjdslafk ldsnfkldsklafkld safklsdaklfasklafjkldsaf lkklfdskfsbjewbskvnlhiodj fkwrehrewiout</p>
+						</div>
+					</div>
+            	</li>
+            	<li class="timeline-inverted">
+					<div class="timeline-image">
+						<h4>Be Part
+						<br>Of Our
+						<br>Story!
+						</h4>
+					</div>
+            	</li>
+          	</ul>
+        	</div>
+      	</div>
+    	</div>
+  	</section>
 
   <!-- Team -->
   <section class="bg-light" id="team">
@@ -403,6 +464,20 @@
       </div>
     </div>
   </section>
+	
+	<section id="commingSoon" class="bg-light">
+		<div class="container">
+      		<div class="row">
+				<div class="col-lg-12 text-center">
+				  <h2 class="section-heading text-uppercase">Comming Soon</h2>
+				  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+				</div>
+      		</div>
+		</div>
+		
+  
+
+	</section>
 
   <!-- Contact -->
   <section id="contact">
